@@ -156,7 +156,7 @@ footer {
     #title {
         margin: 0;
         padding: 0;
-        background-image: url(weight2.jpg);
+        background-image: url(images/weight2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
@@ -435,7 +435,7 @@ footer {
     #title {
         margin: 0;
         padding: 0;
-        background-image: url(bxr-ipad.jpg);
+        background-image: url(images/bxr-ipad.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
@@ -730,7 +730,7 @@ footer {
     #title {
         margin: 0;
         padding: 0;
-        background-image: url(boxer-lg.jpg);
+        background-image: url(images/boxer-lg.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
