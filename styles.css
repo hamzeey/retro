@@ -1,0 +1,1009 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-family: 'Blaka', cursive;
+
+}
+
+.navbar-brand:hover {
+    color: purple !important;
+    transition: 0.1s !important;
+}
+
+.nav-link {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Satisfy', cursive;
+}
+
+
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: purple !important;
+    transition: 0.1s !important;
+}
+
+
+.motivation {
+    color: #ffe3a9;
+
+}
+
+.motivation span {
+    background-color: #541690;
+    padding: 0px;
+
+}
+
+.reg-btn:hover {
+    color: white;
+    background-color: black;
+
+}
+
+#PRICING {
+    background-color: #CA82FF;
+    margin-top: 5px;
+}
+
+.but:hover {
+    color: purple;
+    background-color: white;
+}
+
+#ABOUT {
+    padding-top: 20px !important;
+}
+
+#CONTACT {
+    background-color: #fcfcfc;
+
+}
+
+footer {
+    background: #111111;
+    height: auto;
+    width: 100vw;
+    padding-top: 10px;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: cursive;
+
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.footer-socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.footer-socials li {
+    margin: 0 10px;
+}
+
+.footer-socials a {
+    text-decoration: none;
+    color: #fff;
+    margin: 5px;
+}
+
+.footer-socials i {
+    font-size: 1.1rem;
+    transition: color 0.4s ease;
+}
+
+.footer-socials a:hover {
+    color: #47B5FF;
+}
+
+.footer-bottom {
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: 0.4;
+    font-weight: 200;
+
+}
+
+
+@media screen and (max-width:480px) {
+
+    #title {
+        margin: 0;
+        padding: 0;
+        background-image: url(weight2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .navbar-toggler-icon {
+        padding: 20px;
+        background-color: grey;
+    }
+
+    .workout {
+        margin-top: 210px;
+        margin-left: 0px;
+
+    }
+
+    .start {
+        margin-left: 30px;
+        padding: 20px;
+        font-size: larger;
+        transition: 0.1s;
+    }
+
+    .start:hover {
+        color: purple;
+        background-color: black;
+    }
+
+    .welcome {
+        margin-top: 30px;
+        font-style: italic;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+    .carousel-control-prev-icon {
+        background-color: blue;
+
+    }
+
+    .carousel-control-next-icon {
+        background-color: blue;
+
+    }
+
+    .carousel-item {
+        height: 16rem;
+        background-position: center;
+        opacity: 3;
+    }
+
+    .carousel-caption h2 {
+        color: red;
+        font-family: 'Blaka', cursive;
+
+    }
+
+    .carousel-caption p {
+        color: black;
+        font-family: 'Indie Flower', cursive;
+
+    }
+
+    .carousel-caption hr,
+    .abt {
+        width: 100%;
+        background-color: red;
+        border: 3px dotted;
+        color: #fff;
+    }
+
+    .carou2 {
+        color: #fff !important;
+    }
+
+    .but {
+        margin-left: 110px;
+        padding: 20px;
+        font-size: larger;
+        transition: 0.1s;
+        width: 150px;
+    }
+
+    .gold {
+        background-color: #FAC213;
+
+
+    }
+
+    .gold h2 {
+        font-family: 'Blaka', cursive;
+
+    }
+
+    .gold p {
+        font-family: 'Satisfy', cursive;
+    }
+
+    .platinum {
+        background-color: #E5E4E2;
+
+
+    }
+
+    .platinum h2 {
+        font-family: 'Blaka', cursive;
+
+    }
+
+    .platinum p {
+        font-family: 'Satisfy', cursive;
+    }
+
+    .basic {
+        background-color: #47B5FF;
+
+
+    }
+
+    .basic h2 {
+        font-family: 'Blaka', cursive;
+
+    }
+
+    .basic p {
+        font-family: 'Satisfy', cursive;
+    }
+
+    #TEAM {
+        font-family: sans-serif;
+        color: #111111;
+    }
+
+    #TEAM a {
+        color: #e03a3c;
+    }
+
+    #TEAM a:hover {
+        color: #e76668;
+        text-decoration: none;
+    }
+
+    .team .member {
+        margin-bottom: 20px;
+        overflow: hidden;
+        border-radius: 5px;
+        background: #fff;
+    }
+
+    .team .member .member-img {
+        position: relative;
+        overflow: hidden;
+        background-position: center;
+    }
+
+    .team .member .social {
+        position: absolute;
+        left: 0;
+        bottom: 30px;
+        right: 0;
+        transition: ease-in-out 0.3s;
+        text-align: center;
+    }
+
+    .team .member:hover .social {
+        opacity: 1;
+        bottom: 15px;
+    }
+
+    .team .member .social a {
+        transition: color 0.3s;
+        color: #111111;
+        margin: 0 3px;
+        padding-top: 7px;
+        border-radius: 50px;
+        width: 36px;
+        height: 36px;
+        background: #e03a3c;
+        display: inline-block;
+        transition: ease-in-out 0.3s;
+        color: #fff;
+    }
+
+    .team .member .social a:hover {
+        background: #111111;
+    }
+
+    .team .member .social i {
+        font-size: 18px;
+    }
+
+    .team .member .member-info {
+        padding: 25px 15px;
+        background: #fff;
+    }
+
+    .team .member .member-info h4 {
+        font-weight: 700;
+        margin-bottom: 5px;
+        font-size: 18px;
+        color: #111111;
+
+    }
+
+    .team .member .member-info span {
+        display: block;
+        font-size: 13px;
+        font-weight: 400;
+        color: #817d7d;
+
+
+    }
+
+    section {
+        padding: 60px 0;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .section-title {
+        text-align: center;
+        padding-bottom: 30px;
+        position: relative;
+        font-family: 'Blaka', cursive;
+
+    }
+
+    .section-title h2 {
+        font-size: 32px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        position: relative;
+        font-family: 'Alfa Slab One', cursive;
+
+    }
+
+    .section-title h2::after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 50px;
+        height: 3px;
+        background: #e03a3c;
+        bottom: 0;
+        left: calc(50% - 25px);
+    }
+
+    .section-title p {
+        margin-bottom: 0;
+        font-family: 'Satisfy', cursive;
+
+    }
+
+    .section-bg {
+        padding: 120px 0;
+        color: #fff;
+    }
+
+    .section-bg::before {
+        content: "";
+        position: absolute;
+        bottom: 60px;
+        top: 60px;
+        left: 0;
+        right: 0;
+        transform: skewY(-3deg);
+    }
+
+}
+
+
+@media screen and (min-width:700px) and (max-width:800px) {
+    #title {
+        margin: 0;
+        padding: 0;
+        background-image: url(bxr-ipad.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .navbar-toggler-icon {
+        margin-right: 100px;
+        padding: 20px;
+        background-color: grey;
+    }
+
+    .nav-link {
+        font-size: 30px;
+    }
+
+    .reg-btn {
+        padding: 20px;
+        font-size: 30px;
+    }
+
+    .workout {
+        margin-top: 200px;
+        margin-left: 0px;
+    }
+
+    .start {
+        margin-top: 20px;
+        margin-left: 150px;
+        padding: 30px;
+        font-size: 40px;
+        font-family: cursive;
+        transition: 0.1s;
+    }
+
+    .start:hover {
+        color: purple;
+        background-color: black;
+    }
+
+    .welcome {
+        margin-top: 150px;
+        font-style: italic;
+        font-weight: bolder;
+        font-size: 25px;
+    }
+
+    .carousel-control-prev-icon {
+        background-color: blue;
+
+    }
+
+    .carousel-control-next-icon {
+        background-color: blue;
+
+    }
+
+    .carousel-item {
+        height: 30rem;
+        background-position: center;
+        opacity: 3;
+    }
+
+    .carousel-caption h2 {
+        color: red;
+        font-family: 'Alfa Slab One', cursive;
+    }
+
+    .carousel-caption p {
+        color: black;
+        font-family: 'Indie Flower', cursive;
+    }
+
+    .carousel-caption hr,
+    .abt {
+        width: 100%;
+        background-color: red;
+        border: 3px dotted;
+        color: #fff;
+    }
+
+    .carou2 {
+        color: #fff !important;
+    }
+
+    .gold {
+        background-color: #FAC213;
+        margin-right: 20px;
+        width: 30%;
+    }
+
+    .gold h2 {
+        font-family: 'Blaka', cursive;
+    }
+
+    .gold P {
+        font-family: 'Satisfy', cursive;
+    }
+
+    .platinum {
+        background-color: #E5E4E2;
+        width: 30%;
+        margin-right: 20px;
+    }
+
+    .platinum h2 {
+        font-family: 'Blaka', cursive;
+
+    }
+
+    .platinum p {
+        font-family: 'Blaka', cursive;
+        font-family: 'Satisfy', cursive;
+    }
+
+    .basic {
+        background-color: #47B5FF;
+        margin-right: 20px;
+        width: 30%;
+    }
+
+    .basic h2 {
+        font-family: 'Blaka', cursive;
+
+    }
+
+    .basic p {
+        font-family: 'Satisfy', cursive;
+    }
+
+    .but {
+        margin-top: 20px;
+        margin-left: 35px;
+        padding: 15px;
+        font-size: 15px;
+        font-family: cursive;
+        transition: 0.1s;
+        width: 120px;
+    }
+
+    #TEAM {
+        font-family: sans-serif;
+        color: #111111;
+    }
+
+    #TEAM a {
+        color: #e03a3c;
+    }
+
+    #TEAM a:hover {
+        color: #e76668;
+        text-decoration: none;
+    }
+
+    .team .member {
+        margin-bottom: 20px;
+        overflow: hidden;
+        border-radius: 5px;
+        background: #fff;
+    }
+
+    .team .member .member-img {
+        position: relative;
+        overflow: hidden;
+
+    }
+
+    .team .member .social {
+        position: absolute;
+        left: 0;
+        bottom: 30px;
+        right: 0;
+        transition: ease-in-out 0.3s;
+        text-align: center;
+    }
+
+    .team .member:hover .social {
+        opacity: 1;
+        bottom: 15px;
+    }
+
+    .team .member .social a {
+        transition: color 0.3s;
+        color: #111111;
+        margin: 0 3px;
+        padding-top: 7px;
+        border-radius: 50px;
+        width: 36px;
+        height: 36px;
+        background: #e03a3c;
+        display: inline-block;
+        transition: ease-in-out 0.3s;
+        color: #fff;
+    }
+
+    .team .member .social a:hover {
+        background: #111111;
+    }
+
+    .team .member .social i {
+        font-size: 18px;
+    }
+
+    .team .member .member-info {
+        padding: 25px 15px;
+        background: #fff;
+    }
+
+    .team .member .member-info h4 {
+        font-weight: 700;
+        margin-bottom: 5px;
+        font-size: 18px;
+        color: #111111;
+
+
+    }
+
+    .team .member .member-info span {
+        display: block;
+        font-size: 13px;
+        font-weight: 400;
+        color: #817d7d;
+
+
+    }
+
+    section {
+        padding: 60px 0;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .section-title {
+        text-align: center;
+        padding-bottom: 30px;
+        position: relative;
+        font-family: 'Blaka', cursive;
+    }
+
+    .section-title h2 {
+        font-size: 32px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        position: relative;
+        font-family: 'Alfa Slab One', cursive;
+
+    }
+
+    .section-title h2::after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 50px;
+        height: 3px;
+        background: #e03a3c;
+        bottom: 0;
+        left: calc(50% - 25px);
+    }
+
+    .section-title p {
+        margin-bottom: 0;
+        font-family: 'Satisfy', cursive;
+
+    }
+
+    .section-bg {
+        padding: 120px 0;
+        color: #fff;
+    }
+
+    .section-bg::before {
+        content: "";
+        position: absolute;
+        bottom: 60px;
+        top: 60px;
+        left: 0;
+        right: 0;
+        transform: skewY(-3deg);
+    }
+
+}
+
+
+
+@media screen and (min-width:1025px) {
+    .nav-link {
+        margin-right: 20px;
+    }
+
+    #title {
+        margin: 0;
+        padding: 0;
+        background-image: url(boxer-lg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .reg-btn {
+        margin-right: 30px;
+    }
+
+    .workout {
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+
+    .start {
+        margin-top: 20px;
+        margin-left: 150px;
+        padding: 20px;
+        transition: 0.1s;
+    }
+
+    .start:hover {
+        color: purple;
+        background-color: black;
+    }
+
+    .welcome {
+        margin-top: 30px;
+        font-family: cursive;
+        font-style: italic;
+        font-weight: bolder;
+        font-size: 25px;
+    }
+
+    .carousel-item {
+        height: 36rem;
+        background-position: center;
+        opacity: 3;
+    }
+
+    .carousel-control-prev-icon {
+        background-color: blue;
+
+    }
+
+    .carousel-control-next-icon {
+        background-color: blue;
+
+    }
+
+    .carousel-caption h2 {
+        color: red;
+        font-family: 'Alfa Slab One', cursive;
+
+    }
+
+    .carousel-caption p {
+        color: black;
+        font-family: 'Indie Flower', cursive;
+
+    }
+
+    .carousel-caption hr,
+    .abt {
+        width: 100%;
+        background-color: red;
+        border: 3px dotted;
+        color: #fff;
+    }
+
+    .carou2 {
+        color: #fff !important;
+    }
+
+    .basic {
+        background-color: #47B5FF;
+        margin-right: 25px;
+        width: 30%;
+    }
+
+    .basic h2 {
+        font-family: 'Blaka', cursive;
+    }
+
+    .basic p {
+        font-family: 'Satisfy', cursive;
+    }
+
+    .gold {
+        background-color: #FAC213;
+        margin-right: 25px;
+        width: 30%;
+    }
+
+    .gold h2 {
+        font-family: 'Blaka', cursive;
+
+    }
+
+    .gold p {
+        font-family: 'Satisfy', cursive;
+    }
+
+    .platinum {
+        background-color: #E5E4E2;
+        width: 30%;
+        margin-right: 25px;
+    }
+
+    .platinum h2 {
+        font-family: 'Blaka', cursive;
+
+    }
+
+    .platinum p {
+        font-family: 'Satisfy', cursive;
+    }
+
+    .but {
+        margin-top: 20px;
+        margin-left: 100px;
+        padding: 10px;
+        transition: 0.1s;
+        font-size: 15px;
+        width: 150px;
+    }
+
+    .spin {
+        margin-right: 80px;
+    }
+
+    #TEAM {
+        font-family: sans-serif;
+        color: #111111;
+    }
+
+    #TEAM a {
+        color: #e03a3c;
+    }
+
+    #TEAM a:hover {
+        color: #e76668;
+        text-decoration: none;
+    }
+
+    .team .member {
+        margin-bottom: 20px;
+        overflow: hidden;
+        border-radius: 5px;
+        background: #fff;
+    }
+
+    .team .member .member-img {
+        position: relative;
+        overflow: hidden;
+
+    }
+
+    .team .member .social {
+        position: absolute;
+        left: 0;
+        bottom: 30px;
+        right: 0;
+        transition: ease-in-out 0.3s;
+        text-align: center;
+    }
+
+    .team .member:hover .social {
+        opacity: 1;
+        bottom: 15px;
+    }
+
+    .team .member .social a {
+        transition: color 0.3s;
+        color: #111111;
+        margin: 0 3px;
+        padding-top: 7px;
+        border-radius: 50px;
+        width: 36px;
+        height: 36px;
+        background: white;
+        display: inline-block;
+        transition: ease-in-out 0.3s;
+        color: #fff;
+    }
+
+    .team .member .social a:hover {
+        background: #111111;
+    }
+
+    .team .member .social i {
+        font-size: 18px;
+    }
+
+    .team .member .member-info {
+        padding: 25px 15px;
+        background: #fff;
+    }
+
+    .team .member .member-info h4 {
+        font-weight: 700;
+        margin-bottom: 5px;
+        font-size: 18px;
+        color: #111111;
+
+    }
+
+    .team .member .member-info span {
+        display: block;
+        font-size: 13px;
+        font-weight: 400;
+        color: #817d7d;
+
+    }
+
+    section {
+        padding: 60px 0;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .section-title {
+        text-align: center;
+        padding-bottom: 30px;
+        position: relative;
+        font-family: 'Blaka', cursive;
+    }
+
+    .section-title h2 {
+        font-size: 32px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        position: relative;
+        font-family: 'Alfa Slab One', cursive;
+    }
+
+    .section-title P {
+        font-size: 25px;
+        font-weight: bolder;
+        font-family: 'Satisfy', cursive;
+    }
+
+    .section-title h2::after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 50px;
+        height: 3px;
+        background: #e03a3c;
+        bottom: 0;
+        left: calc(50% - 25px);
+    }
+
+    .section-title p {
+        margin-bottom: 0;
+
+    }
+
+    .section-bg {
+        padding: 120px 0;
+        color: #fff;
+    }
+
+    .section-bg::before {
+        content: "";
+        position: absolute;
+        bottom: 60px;
+        top: 60px;
+        left: 0;
+        right: 0;
+        transform: skewY(-3deg);
+    }
+}
